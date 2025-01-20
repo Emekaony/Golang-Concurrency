@@ -1,0 +1,30 @@
+# Golang .gitignore file
+# Ignore binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore build directories
+_build/
+release/
+
+# Ignore Go modules and vendor directories
+go.sum
+vendor/
+
+# Ignore editor and IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Ignore log and debugging files
+*.log
+*.out
+*.test
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
