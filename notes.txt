@@ -1,0 +1,3 @@
+1. Concurrency: Concurrency is about dealing with multiple tasks at the same time but not necessarily executing them simultaneously.
+                Tasks can take turns (e.g., switching between them) while sharing resources like a single CPU core.
+2. Parallelism: Parallelism is about executing multiple tasks at the same time, typically on multiple CPU cores or processors.
